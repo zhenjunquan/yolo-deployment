@@ -4,10 +4,19 @@
 
 ## 项目结构
 .
-├── config/ # 配置文件目录（YAML格式）
-├── onnx_model/ # ONNX模型文件目录
-├── onnx.py # 基于ONNX Runtime的推理实现
-└── opencv.py # 基于OpenCV的推理实现
+├── config/                  # 配置文件目录
+│   ├── config.yaml          # 示例YAML配置文件
+│   └── ...                  # 其他模型/任务相关配置
+│
+├── onnx_model/              # ONNX模型存储目录
+│   ├── model1.onnx          # 示例ONNX模型文件
+│   └── ...                  
+│
+├── onnx.py                 # ONNX Runtime推理脚本
+├── opencv.py               # OpenCV推理脚本
+│
+├── README.md               # 项目说明文档
+└── requirements.txt        # 可选：依赖库列表
 ## 环境要求
 
 ### ONNX Runtime推理 (onnx.py)
