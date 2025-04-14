@@ -1,6 +1,7 @@
 # Model Inference Benchmark
 
 本项目提供了两种模型推理实现：ONNX Runtime 和 OpenCV。基准测试表明，在CPU环境下ONNX Runtime的推理速度更快。
+jeston 安装相关包地址 `https://elinux.org/Jetson_Zoo#ONNX_Runtime
 
 ## 项目结构
 ```
