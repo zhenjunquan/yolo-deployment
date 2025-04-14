@@ -6,6 +6,8 @@
 
 **相关包地址： https://elinux.org/Jetson_Zoo#ONNX_Runtime**
 
+**pt文件在导出为onnx时，请选用export.py，保证opset和ir_version正确**
+
 ## 项目结构
 ```
 ├── config/                  # 配置文件目录 
