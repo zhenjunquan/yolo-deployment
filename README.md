@@ -2,7 +2,7 @@
 
 本项目提供了两种模型推理实现：ONNX Runtime 和 OpenCV。基准测试表明，在CPU环境下ONNX Runtime的推理速度更快。
 
-**注意：onnxruntime 官方并没有支持jeston arm的包，因此需要在jeston上安装**
+**注意：onnxruntime 官方并没有支持NVIDIA arm的包，源代码安装需要源码编译，可选 NVIDIA 编译好的包**
 
 **相关包地址： https://elinux.org/Jetson_Zoo#ONNX_Runtime**
 
